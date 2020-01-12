@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: webservers
   become: yes
   tasks:
   - name: install jdk11 on ubuntu18 node1
